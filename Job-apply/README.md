@@ -23,3 +23,27 @@ The main goal of this tracker is to keep a structured log of job applications an
 2. **Install the required libraries** by running the following command in a cell:
    ```bash
    !pip install pandas matplotlib
+   ```
+3.	Run the Notebook and follow the prompts in the interactive menu to start tracking your job applications.
+4.	Save Data: Your job application data can be saved to a CSV file (job_tracker.csv) for persistence between sessions.
+
+## Usage
+
+### Once the Jupyter Notebook is open, you will see a menu system that provides options such as:
+- Add a New Job Application: Input details about the jobs you apply to.
+- View All Applications: Display all job applications you’ve tracked so far.
+- Update Status: Update the status of an application as you progress through the hiring process.
+- Save/Load CSV: Save the data to a CSV file or load it for reference in the future.
+- Visualize Application Status: Create a bar chart to see how your applications are distributed across different statuses.
+
+### Example Workflow
+- Apply to a job and log it in the tracker.
+- Update the application status (e.g., after an interview or rejection).
+- Prepare for an interview by documenting key prep tasks in the notes.
+- Update and save the data to a CSV file, keeping track of every position applied for.
+- Analyze the progress by visualizing the application status.
+
+## Future Enhancements
+- Add more fields for tracking interview dates, company research, and coding challenges.
+- Link to external resources for interview preparation.
+- Include reminders for follow-up emails or tasks.
